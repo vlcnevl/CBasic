@@ -1,7 +1,3 @@
-/*
-	VEL›CAN EVL›
-	16010011030
-*/
 
 #include<stdio.h>
 #include<stdlib.h>
@@ -9,10 +5,10 @@
 #include<string.h>
 #include<time.h>
 /*
-	musteri[0][0] -> m¸˛teri numarasi
-	musteri[0][1] -> ˛ifre
+	musteri[0][0] -> m√º√æteri numarasi
+	musteri[0][1] -> √æifre
 	musteri[0][2] -> bakiye
-	musteri[0][3] -> telefon numaras˝
+	musteri[0][3] -> telefon numaras√Ω
 */
 long int musteri[3][4]={{1560,1453,10000,543418},{1561,1454,500,543419},{1998,454,100000,543418}}; 
 void kartsizislem();
@@ -283,7 +279,7 @@ int hesapbilgileri(int a)
 					}
 					else
 					{
-						printf("\n\t\tGirdiginiz Sifreler Eslesmiyor!\n\t\tKalan Deneme Hakk˝ :%d",sayac); goto y;
+						printf("\n\t\tGirdiginiz Sifreler Eslesmiyor!\n\t\tKalan Deneme Hakk√Ω :%d",sayac); goto y;
 						sayac--;
 						if(sayac==0)
 						{
@@ -308,7 +304,7 @@ int hesapbilgileri(int a)
 					}
 					else
 					{
-						printf("\n\t\tGirdiginiz Telefon Numaralari Eslesmiyor!\n\t\tKalan Deneme Hakk˝ :%d",sayac); goto t;
+						printf("\n\t\tGirdiginiz Telefon Numaralari Eslesmiyor!\n\t\tKalan Deneme Hakk√Ω :%d",sayac); goto t;
 						sayac--;
 						if(sayac==0)
 						{
@@ -817,7 +813,7 @@ void dovizkur()
 	eur=1+rand()%8;
 	ster=1+rand()%6;
 	yen=1+rand()%4;
-	printf("\n\t\tTurk Lirasi :%.2f\n\t\tAmerikan Dolari :%.2f\n\t\tEuro :%.2f\n\t\t›ngiliz Sterlini :%.2f\n\t\tJapon Yeni :%.2f",tl,dol,eur,ster,yen);
+	printf("\n\t\tTurk Lirasi :%.2f\n\t\tAmerikan Dolari :%.2f\n\t\tEuro :%.2f\n\t\t√ùngiliz Sterlini :%.2f\n\t\tJapon Yeni :%.2f",tl,dol,eur,ster,yen);
 	getch();
 system("cls");
 
