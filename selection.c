@@ -2,17 +2,17 @@
 #include <stdlib.h>
 
 
-// kendisinden sonra gelen bütün elemanla karşılaştır en kucuk elemanla yer degısıtırır
-// 1 elemanda çalışmaya başlar ve kendısınden sonra gelen tum elemanlar karsılastırır
+// kendisinden sonra gelen bÃ¼tÃ¼n elemanla karÅŸÄ±laÅŸtÄ±r en kucuk elemanla yer degÄ±sÄ±tÄ±rÄ±r
+// 1 elemanda Ã§alÄ±ÅŸmaya baÅŸlar ve kendÄ±sÄ±nden sonra gelen tum elemanlar karsÄ±lastÄ±rÄ±r
 //position 5 4 3 1 2
 //after swap 1 4 3 5 2
-//bir sonraki satırda 2 elemanda başla
+//bir sonraki satÄ±rda 2 elemanda baÅŸla
 //after swap 1 2 3 5 4
 //3 elemana konumlan
 // after swap 1 2 3 5 4
 //4 elemana konumlan
 //after swap 1 2 3 4
-// 0n2 karmasıklıgı
+// 0n2 karmasÄ±klÄ±gÄ±
 
 void selection(int dizi[],int n)
 {
@@ -35,5 +35,7 @@ void selection(int dizi[],int n)
 
 int main()
 {
-
+    int dizi[5]={5,4,3,1,2};
+    selection(dizi[5],2);
+    
 }
